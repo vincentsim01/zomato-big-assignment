@@ -19,7 +19,7 @@ app.get('/',(req,res) => {
 
 app.get('/location', async(req,res) =>{
     let query = {};
-    let collection = "Location";
+    let collection = "location";
     let output = await getData(collection,query);
     res.send(output)
 });
