@@ -24,6 +24,16 @@ app.get('/location', async(req,res) =>{
     res.send(output)
 });
 
+app.get('/locationing', async(req,res) =>{
+    let query = {};
+    let collection = "location";
+    // if(req.query.location_id){
+    //     query = {"location_id":Number(req.query.location_id)}
+    // }
+    let output = await getData(collection,query);
+    res.send(output)
+});
+
 app.get('/restaurants', async(req,res) =>{
     let query = {};
     if(req.query.stateId && req.query.mealId){
