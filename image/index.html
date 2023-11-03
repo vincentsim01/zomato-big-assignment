@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#" type="#">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Lato:wght@300&display=swap');
+        </style>
+</head>
+<body>
+    <header>
+        <div class="headercontainer">
+            Developer Funnel
+            <button>Home</button>
+        </div>
+    </header>
+    <div id="burger">
+        &#8719
+    </div>
+
+    <div id="filterContainerMobile" class="filterNone">
+        <span id="XFilter">X</span>
+        Food Type:
+        <br>
+        <select id="selectFood">
+            <option>North Indian</option>
+            <option>South Indian</option>
+            <option>Chinese</option>
+            <option>Fast Food</option>
+            <option>Street Food</option>
+        </select>
+        <br>
+        Price
+        <br>
+        <select id="selectPrice">
+            <option>0-300</option>
+            <option>301-600</option>
+            <option>601-900</option>
+            <option>901-5000</option>
+
+        </select>
+    
+    </div>
+
+    <div class="filterContainer">
+        <span id="foodFilterText">Food Filter</span>
+        <br>
+        <hr>
+        <br>
+        <input type="radio" value="all" name="foodFilter" id="radioAllFood">
+            <label for="radioAll">All</label><br>
+        <input type="radio" value="North Indian" name="foodFilter" id="radioNorthIndian">
+            <label for="radioNorthIndian">North Indian</label><br>
+        <input type="radio" value="South Indian" name="foodFilter" id="radioSouthIndian">
+            <label for="radioSouthIndian">South Indian</label><br>
+        <input type="radio" value="Chinese" name="foodFilter" id="radioChinese">
+            <label for="radioChinese">Chinese</label><br>
+        <input type="radio" value="Fast Food" name="foodFilter" id="radioFastFood">
+            <label for="radioFastFood">Fast Food</label><br>
+        <input type="radio" value="Street Food" name="foodFilter" id="radioStreetFood">
+            <label for="radioStreetFood">Street</label> Food</label><br>
+
+
+        <hr>
+
+            <span id="costFilterText">Cost Filter</span>
+            <br>
+            <hr>
+            <br>
+            <input type="radio" id="radioAllCost" name="costFilter" value="All">
+            <label for="radioAllCost">All</label><br>
+            <input type="radio" id="radio300" name="costFilter" value="0-300">
+            <label for="radio300">0-300</label><br>
+            <input type="radio" id="radio600" name="costFilter" value="301-600">
+            <label for="radio600">301-600</label><br>
+            <input type="radio" id="radio900" name="costFilter" value="601-900">
+            <label for="radio900">601-900</label><br>
+            <input type="radio" id="radio5000" name="costFilter" value="901-5000">
+            <label for="radio5000">901-5000</label><br>
+
+    </div>
+
+    <div class="cafeOverview">
+        <div id="showCafe"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

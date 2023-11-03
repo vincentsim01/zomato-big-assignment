@@ -1,0 +1,95 @@
+.headercontainer{
+    padding:10px;
+    background-color: grey;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    margin-bottom: 15px;
+}
+
+.filterContainer{
+    width:30%;
+    border:solid 1px black;
+    display:inline-block;
+    vertical-align: top;
+    position: sticky;
+    
+}
+
+#burger{
+    display:none;
+    width:10px;
+}
+
+#theBurger{
+    width:30px;
+}
+
+.filterNone{
+    display:none;
+}
+
+.none{
+    display:none;
+}
+
+#filterContainerMobile{
+    position:absolute;
+    z-index: 3;
+    width:90%;
+    background-color:white;
+    border:solid 1px black;
+    padding:5px;
+}
+
+#XFilter{
+    border:1px black solid;
+    border-radius:35px;
+    flex:right;
+    position:absolute;
+    right:0px;
+    top:-5px;
+    background-color: aqua;
+}
+
+.cafeOverview{
+    width:66%;
+    border:solid 1px black;
+    display:inline-block;
+}
+
+.cafeImage{
+    width:80%;
+}
+
+.cafeImageContainer{
+    display:inline-block;
+    width:45%;
+
+}
+
+.cafeInfoContainer{
+    display:inline-block;
+    width:50%;
+    vertical-align: top;
+    /* border:1px solid black; */
+    
+}
+
+@media (max-width: 350px){
+
+    #burger{
+        display:flex;
+        flex: left;
+    }
+
+    .filterContainer{
+        display:none;
+    }
+
+    .cafeOverview{
+        width:100%;
+    }
+
+}
