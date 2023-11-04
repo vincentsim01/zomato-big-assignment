@@ -5,7 +5,7 @@ var cafez=[
     id:"cafe1",
     price:"USD3",
     Image:"image/cafe1.jpg",
-    Food:["North Indian", "South Indian","All","Street Food"],
+    Food:["Caribbean", "American","French","German"],
     Food2:[{type:"American"},{type:"Australian"}]
     },
     {name:"Cafe Licia",
@@ -14,7 +14,7 @@ var cafez=[
     price:"USD12",
     id:"cafe2",
     Image:"image/cafe2.jpg",
-    Food:["North Indian", "Fast Food", "Street Food","All"],
+    Food:["Indian", "French", "Italian","All"],
     Food2:[{type:"Mexican"},{type:"Brazilian"}]
     },
     {name:"Cafe Tuccini",
@@ -23,7 +23,7 @@ var cafez=[
     id:"cafe3",
     price:"USD11",
     Image:"image/cafe3.jpg",
-    Food:["South Indian", "Fast Food", "Chinese", "North Indian"],
+    Food:["Italian", "French", "Caribbean", "Chinese"],
     Food2:[{type:"Japanese"},{type:"Indonesian"}]
     },
     {name:"Cafe Ver",
@@ -32,7 +32,7 @@ var cafez=[
     id:"cafe4",
     price:"USD2",
     Image:"./image/cafe4.jpg",
-    Food:["Chinese", "Fast Food", "Street Food", "South Indian"],
+    Food:["Chinese", "Italian", "Japanese", "Indian"],
     Food2:[{type:"Morrocan"},{type:"Korean"}]
     
     },
@@ -42,7 +42,7 @@ var cafez=[
     id:"cafe5",
     price:"USD0.8",
     Image:"./image/cafe5.jpg",
-    Food:["Chinese", "Fast Food", "Street Food", "South African"],
+    Food:["Malaysian", "Chinese", "Indonesian", "Japanese"],
     Food2:[{type:"Malaysian"},{type:"Indonesian"}]
     
     }
