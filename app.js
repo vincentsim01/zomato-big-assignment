@@ -27,9 +27,9 @@ app.get('/location', async(req,res) =>{
 app.get('/locationing', async(req,res) =>{
     let query = {};
     let collection = "location";
-    // if(req.query.location_id){
-    //     query = {"location_id":Number(req.query.location_id)}
-    // }
+    if(req.query.location_id){
+        query = {"location_id":Number(req.query.location_id)}
+    }
     let output = await getData(collection,query);
     res.send(output)
 });
