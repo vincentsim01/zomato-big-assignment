@@ -1,6 +1,6 @@
 var cafez=[
     {name:"Cafe Rum",
-    Location: "Carribean",
+    Location: "Cuba",
     Phone:"12345678",
     id:"cafe1",
     price:"USD3",
@@ -34,6 +34,16 @@ var cafez=[
     Image:"./image/cafe4.jpg",
     Food:["Chinese", "Fast Food", "Street Food", "South Indian"],
     Food2:[{type:"Morrocan"},{type:"Korean"}]
+    
+    },
+    {name:"Cafe Lyne",
+    Location: "Malaysia",
+    Phone:"747747747",
+    id:"cafe5",
+    price:"USD0.8",
+    Image:"./image/cafe5.jpg",
+    Food:["Chinese", "Fast Food", "Street Food", "South African"],
+    Food2:[{type:"Malaysian"},{type:"Indonesian"}]
     
     }
 ];
