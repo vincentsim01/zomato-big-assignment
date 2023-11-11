@@ -1,7 +1,16 @@
 .headercontainer{
     padding:10px;
-    background-color: grey;
+    background-color: #ff0035;
     font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+}
+
+#tophome{
+    border-radius:30px;
 }
 
 header{
@@ -33,7 +42,7 @@ header{
 
 #zomatologocontainer{
     width:100%;
-    border:1px solid black;
+
 }
 
 #zomatologo{
@@ -42,13 +51,15 @@ header{
 
     opacity:1;
     animation: moveright 5000ms infinite;
-    border:1px solid black;
+
 
 }
 
 #welcometext{
 
    boder:solid black 1px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size:50px;
 }
 
 .filterContainer{
@@ -247,4 +258,10 @@ footer{
         transform:translateX(400%);
     }
 
+}
+
+
+
+.blackbg{
+    background-color: black;
 }
