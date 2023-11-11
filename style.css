@@ -152,6 +152,22 @@ footer{
 
 }
 
+@media (max-width:700px){
+
+    #zomatologo{
+        animation: moveright700 5000ms infinite;
+    }
+
+}
+
+@media (max-width:500px){
+
+    #zomatologo{
+        animation: moveright500 5000ms infinite;
+    }
+
+}
+
 @keyframes moveright{
     0%{
         transform:translateX(0%);
@@ -175,6 +191,60 @@ footer{
 
     100%{
         transform:translateX(900%);
+    }
+
+}
+
+@keyframes moveright700{
+    0%{
+        transform:translateX(0%);
+    }
+    30%{
+        transform:translateX(200%);
+    }
+    40%{
+        transform:translateX(250%) rotateZ(-90deg);
+
+    }
+    55%{
+        transform:translateX(300%) rotateZ(90deg);
+
+    }
+    65%{
+        transform:translateX(350%) 
+
+    }
+
+
+    100%{
+        transform:translateX(600%);
+    }
+
+}
+
+@keyframes moveright500{
+    0%{
+        transform:translateX(0%);
+    }
+    30%{
+        transform:translateX(100%);
+    }
+    40%{
+        transform:translateX(110%) rotateZ(-90deg);
+
+    }
+    55%{
+        transform:translateX(120%) rotateZ(90deg);
+
+    }
+    65%{
+        transform:translateX(130%) 
+
+    }
+
+
+    100%{
+        transform:translateX(400%);
     }
 
 }
