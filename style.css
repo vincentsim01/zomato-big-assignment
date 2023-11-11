@@ -18,7 +18,7 @@ header{
 #headerbanner{
     content: "";
     background-image:url('./image/cafe150.png');
-    position:relative;
+
     height:400px;
     z-index:-2;
     width:100%;
@@ -26,10 +26,20 @@ header{
 
 }
 
+.headerbannerstatic{
+    text-align:center;
+    vertical-align: middle;;
+}
+
+#zomatologocontainer{
+    width:100%;
+    border:1px solid black;
+}
+
 #zomatologo{
     height:150px;
-    position:relative;
-    z-index:2;    
+
+
     opacity:1;
     animation: moveright 5000ms infinite;
     border:1px solid black;
@@ -37,7 +47,7 @@ header{
 }
 
 #welcometext{
-    position:relative;
+
     z-index:2;
 }
 
@@ -147,24 +157,24 @@ footer{
         transform:translateX(0%);
     }
     30%{
-        transform:translateX(45%);
+        transform:translateX(300%);
     }
     40%{
-        transform:translateX(50%) rotateZ(-90deg);
+        transform:translateX(350%) rotateZ(-90deg);
 
     }
     55%{
-        transform:translateX(55%) rotateZ(90deg);
+        transform:translateX(400%) rotateZ(90deg);
 
     }
     65%{
-        transform:translateX(60%) 
+        transform:translateX(450%) 
 
     }
 
 
     100%{
-        transform:translateX(300%);
+        transform:translateX(900%);
     }
 
 }
