@@ -48,7 +48,7 @@ header{
 
 #welcometext{
 
-    z-index:2;
+   boder:solid black 1px;
 }
 
 .filterContainer{
