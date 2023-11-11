@@ -200,18 +200,18 @@ footer{
         transform:translateX(0%);
     }
     30%{
-        transform:translateX(200%);
+        transform:translateX(170%);
     }
     40%{
-        transform:translateX(250%) rotateZ(-90deg);
+        transform:translateX(190%) rotateZ(-90deg);
 
     }
     55%{
-        transform:translateX(300%) rotateZ(90deg);
+        transform:translateX(210%) rotateZ(90deg);
 
     }
     65%{
-        transform:translateX(350%) 
+        transform:translateX(230%) 
 
     }
 
