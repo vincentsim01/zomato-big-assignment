@@ -10,8 +10,35 @@ header{
 
 #headerbanner{
     border:1px solid black;
-    background-image:url('./image/cafe1.jpg');
+    position:relative;
+
+
+}
+
+#headerbanner{
+    content: "";
+    background-image:url('./image/cafe150.png');
+    position:relative;
     height:400px;
+    z-index:-2;
+    width:100%;
+
+
+}
+
+#zomatologo{
+    height:150px;
+    position:relative;
+    z-index:2;    
+    opacity:1;
+    animation: moveright 5000ms infinite;
+    border:1px solid black;
+
+}
+
+#welcometext{
+    position:relative;
+    z-index:2;
 }
 
 .filterContainer{
@@ -111,6 +138,33 @@ footer{
 
     #headerbanner{
         display:none;
+    }
+
+}
+
+@keyframes moveright{
+    0%{
+        transform:translateX(0%);
+    }
+    30%{
+        transform:translateX(45%);
+    }
+    40%{
+        transform:translateX(50%) rotateZ(-90deg);
+
+    }
+    55%{
+        transform:translateX(55%) rotateZ(90deg);
+
+    }
+    65%{
+        transform:translateX(60%) 
+
+    }
+
+
+    100%{
+        transform:translateX(300%);
     }
 
 }
