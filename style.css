@@ -8,6 +8,12 @@ header{
     margin-bottom: 15px;
 }
 
+#headerbanner{
+    border:1px solid black;
+    background-image:url('./image/cafe1.jpg');
+    height:400px;
+}
+
 .filterContainer{
     width:30%;
     border:solid 1px black;
@@ -84,6 +90,10 @@ header{
     
 }
 
+footer{
+    border:1px solid black;
+}
+
 @media (max-width: 350px){
 
     #burger{
@@ -97,6 +107,10 @@ header{
 
     .cafeOverview{
         width:100%;
+    }
+
+    #headerbanner{
+        display:none;
     }
 
 }
