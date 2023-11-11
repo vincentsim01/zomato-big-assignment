@@ -53,6 +53,13 @@ header{
     background-color: aqua;
 }
 
+.carousel-item{
+    height:400px;
+    transform: translateY(-100px);
+}
+
+
+
 .cafeOverview{
     width:66%;
     border:solid 1px black;
