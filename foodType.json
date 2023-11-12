@@ -1,0 +1,73 @@
+[
+    {
+        "foodtype_id":1,
+        "foodtype":"Caribbean",
+        "content":"Exotic meal from central America",
+        "meal_image":"https://i.ibb.co/w7HBHZ1/caribbean.jpg"
+    },
+    {
+        "foodtype_id":2,
+        "foodtype":"French",
+        "content":"Bon Apetit for our best French Cuisine",
+        "meal_image":""
+    },
+    {
+        "foodtype_id":3,
+        "foodtype":"Italian",
+        "content":"Enjoy Italy's best Pasta and Pizza here",
+        "meal_image":""
+    },
+    {
+        "foodtype_id":4,
+        "foodtype":"Chinese",
+        "content":"Oriental food approved by Chinese Emperor",
+        "meal_image":""
+    },
+    {
+        "foodtype_id":5,
+        "foodtype":"Malaysian",
+        "content":"Delicious food from the Malay Peninsula",
+        "meal_image":""
+    },
+    {
+        "foodtype_id":6,
+        "foodtype":"German",
+        "content":"Danke Schone, Enjoy delicious German food here",
+        "meal_image":""
+    },
+    {
+        "foodtype_id":7,
+        "foodtype":"Japanese",
+        "content":"Arigatou, please have a seat",
+        "meal_image":""
+    },
+    {
+        "foodtype_id":8,
+        "foodtype":"Korean",
+        "content":"Fresh food from the land of K-Pop",
+        "meal_image":""
+    },
+    {
+        "foodtype_id":9,
+        "foodtype":"Indian",
+        "content":"Spices, colors and bollywood",
+        "meal_image":""
+    },
+    {
+        "foodtype_id":10,
+        "foodtype":"Indonesian",
+        "content":"Food brought from the Archipelago",
+        "meal_image":""
+    },
+    {
+        "foodtype_id":11,
+        "foodtype":"American",
+        "content":"Cuisines from the land of the free",
+        "meal_image":"https://i.ibb.co/gZzmDtK/American.png"
+    },
+
+
+
+]
+
+
