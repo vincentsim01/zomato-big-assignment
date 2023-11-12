@@ -89,6 +89,144 @@
 
     ]
 
+},
+{
+    "restaurant_id": 3,
+    "restaurant_name": "Cafe Tuccini",
+    "location_id": 2,
+    "state_id": 1,
+    "address": "Flower Street 10, French",
+    "restaurant_thumb": "https://i.ibb.co/JyvBgf5/cafe2.jpg",
+    "average_rating": 4.4,
+    "rating_text": "Good",
+    "cost": 3,
+    "contact_number": 40404040,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Breakfast"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Lunch"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Dinner"
+      }
+    ],
+    "foodType": [
+      {
+        "foodtype_id": 9,
+        "foodtype_name": "Indian"
+      },
+      {
+        "foodtype_id": 3,
+        "foodtype_name": "Italian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "French"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/9WMSNR8/cafe2-1.png",
+      "https://i.ibb.co/NpynXGv/cafe2-2.png"
+
+    ]
+
+},
+{
+    "restaurant_id": 4,
+    "restaurant_name": "Cafe Ver",
+    "location_id": 2,
+    "state_id": 1,
+    "address": "Flower Street 10, French",
+    "restaurant_thumb": "https://i.ibb.co/JyvBgf5/cafe2.jpg",
+    "average_rating": 4.4,
+    "rating_text": "Good",
+    "cost": 3,
+    "contact_number": 40404040,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Breakfast"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Lunch"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Dinner"
+      }
+    ],
+    "foodType": [
+      {
+        "foodtype_id": 9,
+        "foodtype_name": "Indian"
+      },
+      {
+        "foodtype_id": 3,
+        "foodtype_name": "Italian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "French"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/9WMSNR8/cafe2-1.png",
+      "https://i.ibb.co/NpynXGv/cafe2-2.png"
+
+    ]
+
+},
+{
+    "restaurant_id": 5,
+    "restaurant_name": "Cafe Lyne",
+    "location_id": 2,
+    "state_id": 1,
+    "address": "Flower Street 10, French",
+    "restaurant_thumb": "https://i.ibb.co/JyvBgf5/cafe2.jpg",
+    "average_rating": 4.4,
+    "rating_text": "Good",
+    "cost": 3,
+    "contact_number": 40404040,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Breakfast"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Lunch"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Dinner"
+      }
+    ],
+    "foodType": [
+      {
+        "foodtype_id": 9,
+        "foodtype_name": "Indian"
+      },
+      {
+        "foodtype_id": 3,
+        "foodtype_name": "Italian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "French"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/9WMSNR8/cafe2-1.png",
+      "https://i.ibb.co/NpynXGv/cafe2-2.png"
+
+    ]
+
 }
 
 
