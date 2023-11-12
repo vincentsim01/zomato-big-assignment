@@ -1,14 +1,15 @@
-{
+[
+    {
     "restaurant_id": 1,
     "restaurant_name": "Cafe Rum",
     "location_id": 1,
     "state_id": 1,
     "address": "Iron Street 1, Cuba",
-    "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+    "restaurant_thumb": "https://i.ibb.co/PFY7sYj/cafe1.jpg",
     "average_rating": 4.0,
-    "rating_text": "Very Good",
-    "cost": 666,
-    "contact_number": 9453524651,
+    "rating_text": "Good",
+    "cost": 3,
+    "contact_number": 44444444,
     "mealTypes": [
       {
         "mealtype_id": 1,
@@ -19,20 +20,80 @@
         "mealtype_name": "Lunch"
       }
     ],
-    "cuisines": [
+    "foodType": [
       {
-        "cuisine_id": 1,
-        "cuisine_name": "North Indian"
+        "foodtype_id": 1,
+        "foodtype_name": "Caribbean"
       },
       {
-        "cuisine_id": 4,
-        "cuisine_name": "Fast Food"
+        "foodtype_id": 11,
+        "foodtype_name": "American"
+      },
+      {
+        "foodtype_id": 6,
+        "foodtype_name": "German"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "French"
       }
     ],
     "image_gallery": [
-      "https://b.zmtcdn.com/data/pictures/chains/3/143/fbc2c4c9e55a3f011c493dda79c399f5.jpg",
-      "https://b.zmtcdn.com/data/pictures/chains/3/143/1adb116d088669540c89150836d668f9.jpg",
-      "https://b.zmtcdn.com/data/pictures/chains/3/143/2781ab2c532b711ecd401571cdd87eb9.jpg",
-      "https://b.zmtcdn.com/data/pictures/chains/3/143/c751805b5927046d340926f870a95f5e.jpg"
+      "https://i.ibb.co/yfdhmG9/cafe1-1.png",
+      "https://i.ibb.co/jWgwry2/cafe1-2.png",
+      "https://i.ibb.co/mq4kpF3/cafe1-3.png"
     ]
   },
+  {
+    "restaurant_id": 2,
+    "restaurant_name": "Cafe Licia",
+    "location_id": 2,
+    "state_id": 1,
+    "address": "Flower Street 10, French",
+    "restaurant_thumb": "https://i.ibb.co/JyvBgf5/cafe2.jpg",
+    "average_rating": 4.4,
+    "rating_text": "Good",
+    "cost": 3,
+    "contact_number": 40404040,
+    "mealTypes": [
+      {
+        "mealtype_id": 1,
+        "mealtype_name": "Breakfast"
+      },
+      {
+        "mealtype_id": 2,
+        "mealtype_name": "Lunch"
+      },
+      {
+        "mealtype_id": 3,
+        "mealtype_name": "Dinner"
+      }
+    ],
+    "foodType": [
+      {
+        "foodtype_id": 9,
+        "foodtype_name": "Indian"
+      },
+      {
+        "foodtype_id": 3,
+        "foodtype_name": "Italian"
+      },
+      {
+        "foodtype_id": 2,
+        "foodtype_name": "French"
+      }
+    ],
+    "image_gallery": [
+      "https://i.ibb.co/9WMSNR8/cafe2-1.png",
+      "https://i.ibb.co/NpynXGv/cafe2-2.png"
+
+    ]
+
+}
+
+
+
+
+]
+
+
