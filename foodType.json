@@ -9,55 +9,55 @@
         "foodtype_id":2,
         "foodtype":"French",
         "content":"Bon Apetit for our best French Cuisine",
-        "meal_image":""
+        "meal_image":"https://i.ibb.co/W02xsjQ/french.jpg"
     },
     {
         "foodtype_id":3,
         "foodtype":"Italian",
         "content":"Enjoy Italy's best Pasta and Pizza here",
-        "meal_image":""
+        "meal_image":"https://i.ibb.co/jgLzj16/italian.png"
     },
     {
         "foodtype_id":4,
         "foodtype":"Chinese",
         "content":"Oriental food approved by Chinese Emperor",
-        "meal_image":""
+        "meal_image":"https://i.ibb.co/S508yqs/chinese.png"
     },
     {
         "foodtype_id":5,
         "foodtype":"Malaysian",
         "content":"Delicious food from the Malay Peninsula",
-        "meal_image":""
+        "meal_image":"https://i.ibb.co/HVVbSjk/malaysia.png"
     },
     {
         "foodtype_id":6,
         "foodtype":"German",
         "content":"Danke Schone, Enjoy delicious German food here",
-        "meal_image":""
+        "meal_image":"https://i.ibb.co/8Yyr9LS/german.png"
     },
     {
         "foodtype_id":7,
         "foodtype":"Japanese",
         "content":"Arigatou, please have a seat",
-        "meal_image":""
+        "meal_image":"https://i.ibb.co/cCGV09W/japanese.jpg"
     },
     {
         "foodtype_id":8,
         "foodtype":"Korean",
         "content":"Fresh food from the land of K-Pop",
-        "meal_image":""
+        "meal_image":"https://i.ibb.co/K26fkCD/korea.png"
     },
     {
         "foodtype_id":9,
         "foodtype":"Indian",
         "content":"Spices, colors and bollywood",
-        "meal_image":""
+        "meal_image":"https://i.ibb.co/pWdsbwz/indian.jpg"
     },
     {
         "foodtype_id":10,
         "foodtype":"Indonesian",
         "content":"Food brought from the Archipelago",
-        "meal_image":""
+        "meal_image":"https://i.ibb.co/3mFKmvQ/indonesian.jpg"
     },
     {
         "foodtype_id":11,
@@ -71,3 +71,4 @@
 ]
 
 
+<a href="https://ibb.co/qNBcfbC"><img src="https://i.ibb.co/K26fkCD/korea.png" alt="korea" border="0"></a>
