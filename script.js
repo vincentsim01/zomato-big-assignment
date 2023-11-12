@@ -157,10 +157,12 @@ XFilter.addEventListener("click", () =>{
 // cafez.forEach(showCafeFunction);
 
 let topLD=getElementById('topLD');
-let mybody = document.body;
+
 
 
 
 function lightdark(){
+    let mybody = document.body;
+
     mybody.classList.toggle('blackbg');
 }
