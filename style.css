@@ -13,20 +13,38 @@ body{
     border-radius:30px;
 }
 
+#topLD{
+    border-radius:30px;
+}
+
 header{
     margin-bottom: 15px;
 }
 
-#headerbanner{
-    border:1px solid black;
-    position:relative;
+.headerleft{
+    text-align: left;
+    display:inline-block;
 
-
+    width:48%;
 }
+
+.headerright{
+    text-align: right;
+    display:inline-block;
+
+    width:48%;
+}
+
+.headmenu{
+    margin-right:15px;
+}
+
 
 #headerbanner{
     content: "";
     background-image:url('./image/cafe150.png');
+    border:1px solid black;
+    position:relative;
 
     height:400px;
     z-index:-2;

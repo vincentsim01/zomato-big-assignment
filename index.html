@@ -12,8 +12,14 @@
 <body>
     <header>
         <div class="headercontainer">
-            <button id="tophome">Home</button>
-            <button id="topLD" onclick="lightdark()">L/D</button>
+            <div class="headerleft">
+                <span id="tophome" class="headmenu"><a href="#">Home  </a></span>  
+                <span id="topabout" class="headmenu"><a href="#">  About Us  </a></span>  
+                <span id="topcontact" class="headmenu"><a href="#">  Contact Us  </a></span>
+            </div>
+            <div class="headerright">  
+                <button id="topLD" onclick="lightdark()">Light or Dark Mode</button>
+            </div>  
         </div>
 
     </header>
@@ -171,6 +177,7 @@
 
 
     <div class="cafeOverview">
+        <h2 align="center">Top 5 Cafe</h2>
         <div id="showCafe"></div>
     </div>
 
