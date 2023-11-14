@@ -7,7 +7,7 @@
         "restaurant_id": 1,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
         "menu_type": "Caribbean",
-        "menu_price": "99"
+        "menu_price": "2"
     },
     {
         "menu_id":2,
@@ -16,7 +16,7 @@
         "restaurant_id": 1,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
         "menu_type": "Caribbean",
-        "menu_price": "229"
+        "menu_price": "3"
     },
     {
         "menu_id":3,
@@ -25,7 +25,7 @@
         "restaurant_id": 1,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
         "menu_type": "American",
-        "menu_price": "249"
+        "menu_price": "4"
     },
     {
         "menu_id":4,
@@ -34,7 +34,7 @@
         "restaurant_id": 1,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
         "menu_type": "French",
-        "menu_price": "159"
+        "menu_price": "2.5"
     },
     {
         "menu_id":5,
@@ -43,7 +43,7 @@
         "restaurant_id": 1,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
         "menu_type": "German",
-        "menu_price": "229"
+        "menu_price": "3.5"
     },
 
     //Second Restaurant
@@ -54,7 +54,7 @@
         "restaurant_id": 1,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
         "menu_type": "Indian",
-        "menu_price": "99"
+        "menu_price": "13"
     },
     {
         "menu_id":7,
@@ -63,7 +63,7 @@
         "restaurant_id": 1,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
         "menu_type": "Indian",
-        "menu_price": "229"
+        "menu_price": "12"
     },
     {
         "menu_id":8,
@@ -72,7 +72,7 @@
         "restaurant_id": 1,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
         "menu_type": "French",
-        "menu_price": "249"
+        "menu_price": "12"
     },
     {
         "menu_id":9,
@@ -81,7 +81,7 @@
         "restaurant_id": 1,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
         "menu_type": "French",
-        "menu_price": "159"
+        "menu_price": "14"
     },
     {
         "menu_id":10,
@@ -90,7 +90,7 @@
         "restaurant_id": 1,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
         "menu_type": "Italian",
-        "menu_price": "229"
+        "menu_price": "13"
     },
 
 
@@ -102,7 +102,7 @@
         "restaurant_id": 3,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
         "menu_type": "Italian",
-        "menu_price": "99"
+        "menu_price": "13"
     },
     {
         "menu_id":12,
@@ -111,7 +111,7 @@
         "restaurant_id": 3,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
         "menu_type": "Italian",
-        "menu_price": "229"
+        "menu_price": "11"
     },
     {
         "menu_id":13,
@@ -120,7 +120,7 @@
         "restaurant_id": 3,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
         "menu_type": "French",
-        "menu_price": "249"
+        "menu_price": "10"
     },
     {
         "menu_id":14,
@@ -129,7 +129,7 @@
         "restaurant_id": 3,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
         "menu_type": "Caribbean",
-        "menu_price": "159"
+        "menu_price": "12"
     },
     {
         "menu_id":15,
@@ -138,7 +138,7 @@
         "restaurant_id": 3,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
         "menu_type": "Chinese",
-        "menu_price": "229"
+        "menu_price": "11"
     },
 
     //4th Restaurant
@@ -150,7 +150,7 @@
         "restaurant_id": 4,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
         "menu_type": "Chinese",
-        "menu_price": "99"
+        "menu_price": "4"
     },
     {
         "menu_id":17,
@@ -159,7 +159,7 @@
         "restaurant_id": 4,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
         "menu_type": "Chinese",
-        "menu_price": "229"
+        "menu_price": "1"
     },
     {
         "menu_id":18,
@@ -168,7 +168,7 @@
         "restaurant_id": 4,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
         "menu_type": "Italian",
-        "menu_price": "249"
+        "menu_price": "2"
     },
     {
         "menu_id":19,
@@ -177,7 +177,7 @@
         "restaurant_id": 4,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
         "menu_type": "Japanese",
-        "menu_price": "159"
+        "menu_price": "3"
     },
     {
         "menu_id":20,
@@ -186,7 +186,7 @@
         "restaurant_id": 4,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
         "menu_type": "Indian",
-        "menu_price": "229"
+        "menu_price": "3"
     },
 
 
@@ -199,7 +199,7 @@
         "restaurant_id": 5,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
         "menu_type": "Malaysian",
-        "menu_price": "99"
+        "menu_price": "0.7"
     },
     {
         "menu_id":22,
@@ -208,7 +208,7 @@
         "restaurant_id": 5,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
         "menu_type": "Malaysian",
-        "menu_price": "229"
+        "menu_price": "1"
     },
     {
         "menu_id":23,
@@ -217,7 +217,7 @@
         "restaurant_id": 5,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
         "menu_type": "Chinese",
-        "menu_price": "249"
+        "menu_price": "0.9"
     },
     {
         "menu_id":24,
@@ -226,7 +226,7 @@
         "restaurant_id": 5,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
         "menu_type": "Indonesian",
-        "menu_price": "159"
+        "menu_price": "0.8"
     },
     {
         "menu_id":25,
@@ -235,7 +235,7 @@
         "restaurant_id": 5,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
         "menu_type": "Japanese",
-        "menu_price": "229"
+        "menu_price": "0.6"
     }
 
 ]
