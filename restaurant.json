@@ -53,7 +53,7 @@
     "restaurant_thumb": "https://i.ibb.co/JyvBgf5/cafe2.jpg",
     "average_rating": 4.4,
     "rating_text": "Good",
-    "cost": 3,
+    "cost": 12,
     "contact_number": 40404040,
     "mealTypes": [
       {
@@ -96,10 +96,10 @@
     "location_id": 3,
     "state_id": 3,
     "address": "Raggazi Street 2, Italy",
-    "restaurant_thumb": "",
+    "restaurant_thumb": "https://i.ibb.co/DbNnLSs/cafe3.jpg",
     "average_rating": 3.9,
     "rating_text": "Good",
-    "cost": 18,
+    "cost": 11,
     "contact_number": 40404040,
     "mealTypes": [
       {
@@ -135,8 +135,11 @@
       }
     ],
     "image_gallery": [
-      "",
-      ""
+      "https://i.ibb.co/D7v1yz8/restaurant31.png",
+      "https://i.ibb.co/zRwmKbS/restaurant32.png",
+      "https://i.ibb.co/VqBD0R3/restaurant33.png",
+      "https://i.ibb.co/ccRFyC2/restaurant34.png",
+      "https://i.ibb.co/sgZQXQs/restaurant35.png"
 
     ]
 
@@ -147,10 +150,10 @@
     "location_id": 4,
     "state_id": 4,
     "address": "Da Yin Street China",
-    "restaurant_thumb": "",
+    "restaurant_thumb": "https://i.ibb.co/zmjxWS2/cafe4.jpg",
     "average_rating": 4.1,
     "rating_text": "Good",
-    "cost": 5,
+    "cost": 2,
     "contact_number": 12344321,
     "mealTypes": [
       {
@@ -185,8 +188,9 @@
       }
     ],
     "image_gallery": [
-      "",
-      ""
+      "https://i.ibb.co/pxf7BMG/restaurant41.png",
+      "https://i.ibb.co/zH2ZcQF/restaurant42.png",
+      "https://i.ibb.co/FxrBKMD/restaurant43.png"
 
     ]
 
@@ -197,10 +201,10 @@
     "location_id": 5,
     "state_id": 5,
     "address": "Jalan Bersatu Malaysia",
-    "restaurant_thumb": "https://i.ibb.co/JyvBgf5/cafe2.jpg",
+    "restaurant_thumb": "https://i.ibb.co/drXVZ0B/cafe5.jpg",
     "average_rating": 3.7,
     "rating_text": "Good",
-    "cost": 1,
+    "cost": 0.8,
     "contact_number": 7766554433,
     "mealTypes": [
       {
@@ -235,8 +239,11 @@
       }
     ],
     "image_gallery": [
-      "",
-      ""
+      "https://i.ibb.co/3fQmRsb/restaurant51.jpg",
+      "https://i.ibb.co/BLPm8Vq/restaurant52.png",
+      "https://i.ibb.co/8XjLmCj/restaurant53.png",
+      "https://i.ibb.co/4MTP2rR/restaurant54.png",
+      "https://i.ibb.co/S6qn6VT/restaurant55.png"
 
     ]
 
@@ -246,5 +253,4 @@
 
 
 ]
-
 
