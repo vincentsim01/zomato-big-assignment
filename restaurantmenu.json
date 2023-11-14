@@ -1,0 +1,241 @@
+[
+    //First Restaurant
+    {
+        "menu_id":1,
+        "menu_name": "Garlic Breadsticks",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
+        "menu_type": "Caribbean",
+        "menu_price": "99"
+    },
+    {
+        "menu_id":2,
+        "menu_name": "Farmhouse",
+        "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
+        "menu_type": "Caribbean",
+        "menu_price": "229"
+    },
+    {
+        "menu_id":3,
+        "menu_name": "Indi Tandoori Paneer",
+        "description": "It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with capsicum",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
+        "menu_type": "American",
+        "menu_price": "249"
+    },
+    {
+        "menu_id":4,
+        "menu_name": "Chicken Pepperoni Stuffed Garlic Bread",
+        "description": "Freshly Baked Garlic Bread stuffed with Delectable Chicken Pepperoni, Cheese and sprinkled with Basil Parsley",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
+        "menu_type": "French",
+        "menu_price": "159"
+    },
+    {
+        "menu_id":5,
+        "menu_name": "Creamy Tomato Pasta Pizza - Non Veg",
+        "description": "Loaded with a delicious creamy tomato pasta topping, BBQ pepper chicken, green capsicum, crunchy red and yellow bell peppers.",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
+        "menu_type": "German",
+        "menu_price": "229"
+    },
+
+    //Second Restaurant
+    {
+        "menu_id":6,
+        "menu_name": "Garlic Breadsticks",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
+        "menu_type": "Indian",
+        "menu_price": "99"
+    },
+    {
+        "menu_id":7,
+        "menu_name": "Farmhouse",
+        "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
+        "menu_type": "Indian",
+        "menu_price": "229"
+    },
+    {
+        "menu_id":8,
+        "menu_name": "Indi Tandoori Paneer",
+        "description": "It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with capsicum",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
+        "menu_type": "French",
+        "menu_price": "249"
+    },
+    {
+        "menu_id":9,
+        "menu_name": "Chicken Pepperoni Stuffed Garlic Bread",
+        "description": "Freshly Baked Garlic Bread stuffed with Delectable Chicken Pepperoni, Cheese and sprinkled with Basil Parsley",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
+        "menu_type": "French",
+        "menu_price": "159"
+    },
+    {
+        "menu_id":10,
+        "menu_name": "Creamy Tomato Pasta Pizza - Non Veg",
+        "description": "Loaded with a delicious creamy tomato pasta topping, BBQ pepper chicken, green capsicum, crunchy red and yellow bell peppers.",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
+        "menu_type": "Italian",
+        "menu_price": "229"
+    },
+
+
+    //3rd Restaurant
+    {
+        "menu_id":11,
+        "menu_name": "Garlic Breadsticks",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 3,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
+        "menu_type": "Italian",
+        "menu_price": "99"
+    },
+    {
+        "menu_id":12,
+        "menu_name": "Farmhouse",
+        "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+        "restaurant_id": 3,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
+        "menu_type": "Italian",
+        "menu_price": "229"
+    },
+    {
+        "menu_id":13,
+        "menu_name": "Indi Tandoori Paneer",
+        "description": "It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with capsicum",
+        "restaurant_id": 3,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
+        "menu_type": "French",
+        "menu_price": "249"
+    },
+    {
+        "menu_id":14,
+        "menu_name": "Chicken Pepperoni Stuffed Garlic Bread",
+        "description": "Freshly Baked Garlic Bread stuffed with Delectable Chicken Pepperoni, Cheese and sprinkled with Basil Parsley",
+        "restaurant_id": 3,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
+        "menu_type": "Caribbean",
+        "menu_price": "159"
+    },
+    {
+        "menu_id":15,
+        "menu_name": "Creamy Tomato Pasta Pizza - Non Veg",
+        "description": "Loaded with a delicious creamy tomato pasta topping, BBQ pepper chicken, green capsicum, crunchy red and yellow bell peppers.",
+        "restaurant_id": 3,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
+        "menu_type": "Chinese",
+        "menu_price": "229"
+    },
+
+    //4th Restaurant
+
+    {
+        "menu_id":16,
+        "menu_name": "Garlic Breadsticks",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 4,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
+        "menu_type": "Chinese",
+        "menu_price": "99"
+    },
+    {
+        "menu_id":17,
+        "menu_name": "Farmhouse",
+        "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+        "restaurant_id": 4,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
+        "menu_type": "Chinese",
+        "menu_price": "229"
+    },
+    {
+        "menu_id":18,
+        "menu_name": "Indi Tandoori Paneer",
+        "description": "It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with capsicum",
+        "restaurant_id": 4,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
+        "menu_type": "Italian",
+        "menu_price": "249"
+    },
+    {
+        "menu_id":19,
+        "menu_name": "Chicken Pepperoni Stuffed Garlic Bread",
+        "description": "Freshly Baked Garlic Bread stuffed with Delectable Chicken Pepperoni, Cheese and sprinkled with Basil Parsley",
+        "restaurant_id": 4,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
+        "menu_type": "Japanese",
+        "menu_price": "159"
+    },
+    {
+        "menu_id":20,
+        "menu_name": "Creamy Tomato Pasta Pizza - Non Veg",
+        "description": "Loaded with a delicious creamy tomato pasta topping, BBQ pepper chicken, green capsicum, crunchy red and yellow bell peppers.",
+        "restaurant_id": 4,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
+        "menu_type": "Indian",
+        "menu_price": "229"
+    },
+
+
+    //5th Restaurant
+
+    {
+        "menu_id":21,
+        "menu_name": "Garlic Breadsticks",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 5,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
+        "menu_type": "Malaysian",
+        "menu_price": "99"
+    },
+    {
+        "menu_id":22,
+        "menu_name": "Farmhouse",
+        "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+        "restaurant_id": 5,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
+        "menu_type": "Malaysian",
+        "menu_price": "229"
+    },
+    {
+        "menu_id":23,
+        "menu_name": "Indi Tandoori Paneer",
+        "description": "It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with capsicum",
+        "restaurant_id": 5,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
+        "menu_type": "Chinese",
+        "menu_price": "249"
+    },
+    {
+        "menu_id":24,
+        "menu_name": "Chicken Pepperoni Stuffed Garlic Bread",
+        "description": "Freshly Baked Garlic Bread stuffed with Delectable Chicken Pepperoni, Cheese and sprinkled with Basil Parsley",
+        "restaurant_id": 5,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
+        "menu_type": "Indonesian",
+        "menu_price": "159"
+    },
+    {
+        "menu_id":25,
+        "menu_name": "Creamy Tomato Pasta Pizza - Non Veg",
+        "description": "Loaded with a delicious creamy tomato pasta topping, BBQ pepper chicken, green capsicum, crunchy red and yellow bell peppers.",
+        "restaurant_id": 5,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
+        "menu_type": "Japanese",
+        "menu_price": "229"
+    }
+
+]
