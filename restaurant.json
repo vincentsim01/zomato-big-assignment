@@ -48,7 +48,7 @@
     "restaurant_id": 2,
     "restaurant_name": "Cafe Licia",
     "location_id": 2,
-    "state_id": 1,
+    "state_id": 2,
     "address": "Flower Street 10, French",
     "restaurant_thumb": "https://i.ibb.co/JyvBgf5/cafe2.jpg",
     "average_rating": 4.4,
@@ -93,13 +93,13 @@
 {
     "restaurant_id": 3,
     "restaurant_name": "Cafe Tuccini",
-    "location_id": 2,
-    "state_id": 1,
-    "address": "Flower Street 10, French",
-    "restaurant_thumb": "https://i.ibb.co/JyvBgf5/cafe2.jpg",
-    "average_rating": 4.4,
+    "location_id": 3,
+    "state_id": 3,
+    "address": "Raggazi Street 2, Italy",
+    "restaurant_thumb": "",
+    "average_rating": 3.9,
     "rating_text": "Good",
-    "cost": 3,
+    "cost": 18,
     "contact_number": 40404040,
     "mealTypes": [
       {
@@ -117,8 +117,8 @@
     ],
     "foodType": [
       {
-        "foodtype_id": 9,
-        "foodtype_name": "Indian"
+        "foodtype_id": 1,
+        "foodtype_name": "Caribbean"
       },
       {
         "foodtype_id": 3,
@@ -128,10 +128,15 @@
         "foodtype_id": 2,
         "foodtype_name": "French"
       }
+      ,
+      {
+        "foodtype_id": 4,
+        "foodtype_name": "Chinese"
+      }
     ],
     "image_gallery": [
-      "https://i.ibb.co/9WMSNR8/cafe2-1.png",
-      "https://i.ibb.co/NpynXGv/cafe2-2.png"
+      "",
+      ""
 
     ]
 
@@ -139,14 +144,14 @@
 {
     "restaurant_id": 4,
     "restaurant_name": "Cafe Ver",
-    "location_id": 2,
-    "state_id": 1,
-    "address": "Flower Street 10, French",
-    "restaurant_thumb": "https://i.ibb.co/JyvBgf5/cafe2.jpg",
-    "average_rating": 4.4,
+    "location_id": 4,
+    "state_id": 4,
+    "address": "Da Yin Street China",
+    "restaurant_thumb": "",
+    "average_rating": 4.1,
     "rating_text": "Good",
-    "cost": 3,
-    "contact_number": 40404040,
+    "cost": 5,
+    "contact_number": 12344321,
     "mealTypes": [
       {
         "mealtype_id": 1,
@@ -171,13 +176,17 @@
         "foodtype_name": "Italian"
       },
       {
-        "foodtype_id": 2,
-        "foodtype_name": "French"
+        "foodtype_id": 4,
+        "foodtype_name": "Chinese"
+      },
+      {
+        "foodtype_id": 7,
+        "foodtype_name": "Japanese"
       }
     ],
     "image_gallery": [
-      "https://i.ibb.co/9WMSNR8/cafe2-1.png",
-      "https://i.ibb.co/NpynXGv/cafe2-2.png"
+      "",
+      ""
 
     ]
 
@@ -185,14 +194,14 @@
 {
     "restaurant_id": 5,
     "restaurant_name": "Cafe Lyne",
-    "location_id": 2,
-    "state_id": 1,
-    "address": "Flower Street 10, French",
+    "location_id": 5,
+    "state_id": 5,
+    "address": "Jalan Bersatu Malaysia",
     "restaurant_thumb": "https://i.ibb.co/JyvBgf5/cafe2.jpg",
-    "average_rating": 4.4,
+    "average_rating": 3.7,
     "rating_text": "Good",
-    "cost": 3,
-    "contact_number": 40404040,
+    "cost": 1,
+    "contact_number": 7766554433,
     "mealTypes": [
       {
         "mealtype_id": 1,
@@ -209,21 +218,25 @@
     ],
     "foodType": [
       {
-        "foodtype_id": 9,
-        "foodtype_name": "Indian"
+        "foodtype_id": 5,
+        "foodtype_name": "Malaysian"
       },
       {
-        "foodtype_id": 3,
-        "foodtype_name": "Italian"
+        "foodtype_id": 10,
+        "foodtype_name": "Indonesian"
       },
       {
-        "foodtype_id": 2,
-        "foodtype_name": "French"
+        "foodtype_id": 4,
+        "foodtype_name": "Chinese"
+      },
+      {
+        "foodtype_id": 7,
+        "foodtype_name": "Japanese"
       }
     ],
     "image_gallery": [
-      "https://i.ibb.co/9WMSNR8/cafe2-1.png",
-      "https://i.ibb.co/NpynXGv/cafe2-2.png"
+      "",
+      ""
 
     ]
 
