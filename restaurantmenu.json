@@ -2,19 +2,21 @@
     //First Restaurant
     {
         "menu_id":1,
-        "menu_name": "Garlic Breadsticks",
-        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "menu_name": "Pepperpot",
+        "description": "This thick and rich stew can include aubergine, okra, squash, potatoes and pretty much anything else that grows in the islands' rich earth",
         "restaurant_id": 1,
-        "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
+        "menu_image": "https://i.ibb.co/m4jBYBd/caribbean1.webp",
         "menu_type": "Caribbean",
         "menu_price": "2"
+
+  
     },
     {
         "menu_id":2,
-        "menu_name": "Farmhouse",
-        "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+        "menu_name": "Cuban Sandwich",
+        "description": "This hearty sandwich was once the lunchtime meal for labourers in Havana",
         "restaurant_id": 1,
-        "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
+        "menu_image": "https://i.ibb.co/mXYQBZy/carribean2-Cuban-sandwich.webp",
         "menu_type": "Caribbean",
         "menu_price": "3"
     },
@@ -145,46 +147,53 @@
 
     {
         "menu_id":16,
-        "menu_name": "Garlic Breadsticks",
-        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "menu_name": "Lamian",
+        "description": "Lamian noodle from Xin Jiang",
         "restaurant_id": 4,
-        "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
+        "menu_image": "https://i.ibb.co/pQ44nQF/lamian.jpg",
         "menu_type": "Chinese",
         "menu_price": "4"
     },
+
+
     {
         "menu_id":17,
-        "menu_name": "Farmhouse",
-        "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+        "menu_name": "Chicken Feet",
+        "description": "Chicken feet to make you feel good",
         "restaurant_id": 4,
-        "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
+        "menu_image": "https://i.ibb.co/Sdp19D7/chicken-feet.jpg",
         "menu_type": "Chinese",
         "menu_price": "1"
     },
+
     {
         "menu_id":18,
-        "menu_name": "Indi Tandoori Paneer",
-        "description": "It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with capsicum",
+        "menu_name": "Risotto",
+        "description": "Risotto made with fresh ingredients from Italy",
         "restaurant_id": 4,
-        "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
+        "menu_image": "https://i.ibb.co/54Hqg8b/risotto.jpg",
         "menu_type": "Italian",
         "menu_price": "2"
     },
+
+
     {
         "menu_id":19,
-        "menu_name": "Chicken Pepperoni Stuffed Garlic Bread",
-        "description": "Freshly Baked Garlic Bread stuffed with Delectable Chicken Pepperoni, Cheese and sprinkled with Basil Parsley",
+        "menu_name": "Chicken Katsu",
+        "description": "Crunch and crispy chicken katsu made by Chef Hiroto",
         "restaurant_id": 4,
-        "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
+        "menu_image": "https://i.ibb.co/tMpKyDn/katsu.jpg",
         "menu_type": "Japanese",
         "menu_price": "3"
     },
+
+
     {
         "menu_id":20,
-        "menu_name": "Creamy Tomato Pasta Pizza - Non Veg",
-        "description": "Loaded with a delicious creamy tomato pasta topping, BBQ pepper chicken, green capsicum, crunchy red and yellow bell peppers.",
+        "menu_name": "Nasi Briyani",
+        "description": "Delicious briyani rice with strong curry and crispy chicken or fish.",
         "restaurant_id": 4,
-        "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
+        "menu_image": "https://i.ibb.co/F71w8c3/biryani.jpg",
         "menu_type": "Indian",
         "menu_price": "3"
     },
@@ -194,8 +203,8 @@
 
     {
         "menu_id":21,
-        "menu_name": "Garlic Breadsticks",
-        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "menu_name": "Bawang Breadsticks",
+        "description": "Onion and Shallot with Peranakan culture combined to make the perfect breadsticks",
         "restaurant_id": 5,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
         "menu_type": "Malaysian",
@@ -203,7 +212,7 @@
     },
     {
         "menu_id":22,
-        "menu_name": "Farmhouse",
+        "menu_name": "Malaysia Pizza",
         "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
         "restaurant_id": 5,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
@@ -212,8 +221,8 @@
     },
     {
         "menu_id":23,
-        "menu_name": "Indi Tandoori Paneer",
-        "description": "It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with capsicum",
+        "menu_name": "Mala Pizza",
+        "description": "Spicy Pizza from cuisine with customizable ingredients",
         "restaurant_id": 5,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
         "menu_type": "Chinese",
@@ -221,8 +230,8 @@
     },
     {
         "menu_id":24,
-        "menu_name": "Chicken Pepperoni Stuffed Garlic Bread",
-        "description": "Freshly Baked Garlic Bread stuffed with Delectable Chicken Pepperoni, Cheese and sprinkled with Basil Parsley",
+        "menu_name": "Roti with Chicken Pepperoni",
+        "description": "Delicious Indonesian roti filled with chicken Pepperoni",
         "restaurant_id": 5,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/17f/731e22c58e4b9571db474c7099b1817f.png",
         "menu_type": "Indonesian",
@@ -230,8 +239,8 @@
     },
     {
         "menu_id":25,
-        "menu_name": "Creamy Tomato Pasta Pizza - Non Veg",
-        "description": "Loaded with a delicious creamy tomato pasta topping, BBQ pepper chicken, green capsicum, crunchy red and yellow bell peppers.",
+        "menu_name": "Teriyaki Pizza",
+        "description": "Pizza with Teriyaki from Japanese farm",
         "restaurant_id": 5,
         "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/b33c5c010ef9458bdf571b044553cb1f.jpg",
         "menu_type": "Japanese",
