@@ -35,6 +35,20 @@ app.get('/locationing', async(req,res) =>{
     res.send(output)
 });
 
+
+
+app.get('/restaurantmenu', async(req,res) =>{
+    let query = {};
+    let collection = "restaurantmenu";
+    if(req.query.restaurant_id){
+        query = {"restaurant_id":Number(req.query.restaurant_id)}
+
+    }
+    let output = await getData(collection,query);
+    res.send(output)
+});
+
+
 app.get('/menu', async(req,res) =>{
     let query = {};
     let collection = "menu";
