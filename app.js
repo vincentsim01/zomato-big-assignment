@@ -1,6 +1,6 @@
 let express = require('express');
 let app = express();
-let port = 9121
+let port = 3000
 let Mongo = require('mongodb');
 let bodyParser = require('body-parser');
 let cors = require('cors');
@@ -91,6 +91,9 @@ app.get('/filter/:mealId',async(req,res) => {
     let foodtypeId = Number(req.query.foodtypeId);
     let lcost = Number(req.query.lcost);
     let hcost = Number(req.query.hcost);
+
+    console.log(mealId);
+    console.log(foodtypeId);
 
     if(foodtypeId){
         query = {
