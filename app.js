@@ -88,14 +88,14 @@ app.get('/mealType', async(req,res) => {
 
 app.get('/filter/:mealId',async(req,res) => {
     let mealId = Number(req.params.mealId);
-    let cuisineId = Number(req.query.cuisineId);
+    let foodtypeId = Number(req.query.foodtypeId);
     let lcost = Number(req.query.lcost);
     let hcost = Number(req.query.hcost);
 
-    if(cuisineId){
+    if(foodtypeId){
         query = {
             "mealTypes.mealtype_id":Number(mealId),
-            "cuisines.cuisine_id":Number(cuisineId)
+            "foodType.foodtype_id":Number(foodtypeId)
         }
     }else if(lcost && hcost){
         query = {
