@@ -1,0 +1,37 @@
+[
+    {
+      "location_id": 1,
+      "location_name": "Carribean",
+      "state_id": 1,
+      "state": "Granma",
+      "country_name": "Cuba"
+    },
+    {
+      "location_id": 2,
+      "location_name": "Perfection",
+      "state_id": 2,
+      "state": "Bordeaux",
+      "country_name": "French"
+    },
+    {
+      "location_id": 3,
+      "location_name": "Italian",
+      "state_id": 3,
+      "state": "Venice",
+      "country_name": "Italy"
+    },
+    {
+      "location_id": 4,
+      "location_name": "Da Yin",
+      "state_id": 4,
+      "state": "Xin Jiang",
+      "country_name": "China"
+    },
+    {
+      "location_id": 5,
+      "location_name": "Bukit Bintang",
+      "state_id": 6,
+      "state": "Kuala Lumpur",
+      "country_name": "Malaysia"
+    }
+  ]
