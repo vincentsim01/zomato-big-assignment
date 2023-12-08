@@ -86,6 +86,18 @@ app.get('/mealType', async(req,res) => {
     res.send(output);
 })
 
+
+
+
+
+// get all mealtypes
+app.get('/quicksearch', async(req,res) => {
+    let query = {};
+    let collection = "mealType";
+    let output = await getData(collection,query);
+    res.send(output);
+})
+
 app.get('/filter/:mealId',async(req,res) => {
     let mealId = Number(req.params.mealId);
     let foodtypeId = Number(req.query.foodtypeId);
