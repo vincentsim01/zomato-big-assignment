@@ -93,7 +93,7 @@ app.get('/mealType', async(req,res) => {
 // get all mealtypes
 app.get('/quicksearch', async(req,res) => {
     let query = {};
-    let collection = "mealType";
+    let collection = "foodType";
     let output = await getData(collection,query);
     res.send(output);
 })
