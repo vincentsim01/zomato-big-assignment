@@ -62,16 +62,18 @@ app.get('/menu', async(req,res) =>{
 
 app.get('/restaurants', async(req,res) =>{
     let query = {};
-    if(req.query.stateId && req.query.mealId){
+    if(req.query.stateId && req.query.foodtypeId){
         query = {
             "state_id":Number(req.query.stateId),
-            "mealTypes.mealtype_id":Number(req.query.mealId)
+            "foodType.foodtype_id":Number(req.query.foodtypeId)
         } 
     }
     else if(req.query.stateId){
        query = {"state_id":Number(req.query.stateId)} 
+    }else if(req.query.foodtypeId){
+        query = {"foodType.foodtypeId":Number(req.query.foodtypeId)}
     }else if(req.query.mealId){
-        query = {"mealTypes.mealtype_id":Number(req.query.mealId)}
+       query = {"mealTypes.mealtype_id":Number(req.query.mealId)} 
     }
     let collection = "restaurants";
     let output = await getData(collection,query);
@@ -126,6 +128,45 @@ app.get('/filter/:mealId',async(req,res) => {
     let output = await getData(collection,query);
     res.send(output)
 })
+
+
+
+
+
+
+
+
+app.get('/filtery/:foodtypeId',async(req,res) => {
+    let mealId = Number(req.query.mealId);
+    let foodtypeId = Number(req.params.foodtypeId);
+    let lcost = Number(req.query.lcost);
+    let hcost = Number(req.query.hcost);
+
+    console.log(mealId);
+    console.log(foodtypeId);
+
+    if(mealId){
+        query = {
+            "mealTypes.mealtype_id":Number(mealId),
+            "foodType.foodtype_id":Number(foodtypeId)
+        }
+    }else if(lcost && hcost){
+        query = {
+            "foodType.foodtype_id":Number(foodtypeId),
+            $and:[{cost:{$gt:lcost,$lt:hcost}}]
+        }
+    }
+    else{
+        query = {}
+    }
+
+    let collection = "restaurants";
+    let output = await getData(collection,query);
+    res.send(output)
+})
+
+
+
 
 
 
