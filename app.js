@@ -100,6 +100,9 @@ app.get('/quicksearch', async(req,res) => {
     res.send(output);
 })
 
+
+
+
 app.get('/filter/:mealId',async(req,res) => {
     let mealId = Number(req.params.mealId);
     let foodtypeId = Number(req.query.foodtypeId);
@@ -131,7 +134,17 @@ app.get('/filter/:mealId',async(req,res) => {
 
 
 
+app.get('/details', async(req,res) => {
+    let query = {};
+    let restIds = Number(req.query.restId);
+    if(req.query.restId){
+       query = {"restaurant_id":Number(req.query.restId)} 
+    }   
+    let collection = "restaurants";
+    let output = await getData(collection,query);
 
+    res.send(output);
+})
 
 
 
