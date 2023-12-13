@@ -62,23 +62,28 @@ app.get('/menu', async(req,res) =>{
 
 app.get('/restaurants', async(req,res) =>{
     let query = {};
-    if(req.query.stateId && req.query.foodtypeId){
+    if(req.query.stateId && req.query.foodTypeId){
         query = {
             "state_id":Number(req.query.stateId),
-            "foodType.foodtype_id":Number(req.query.foodtypeId)
+            "foodType.foodtype_id":Number(req.query.foodTypeId)
         } 
     }
     else if(req.query.stateId){
        query = {"state_id":Number(req.query.stateId)} 
-    }else if(req.query.foodtypeId){
-        query = {"foodType.foodtypeId":Number(req.query.foodtypeId)}
+    }else if(req.query.foodTypeId){
+        query = {"foodType.foodtype_id":Number(req.query.foodTypeId)}
     }else if(req.query.mealId){
        query = {"mealTypes.mealtype_id":Number(req.query.mealId)} 
+    }else if(req.query.ratingText){
+       query = {"rating_text":Number(req.query.ratingText)} 
     }
     let collection = "restaurants";
     let output = await getData(collection,query);
     res.send(output)
 });
+
+
+console.log("this is the end this is just a fantasy"+foodType.foodtype_id:1)
 
 // get all mealtypes
 app.get('/mealType', async(req,res) => {
