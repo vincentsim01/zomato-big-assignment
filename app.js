@@ -70,9 +70,15 @@ app.get('/restaurants', async(req,res) =>{
     }
     else if(req.query.stateId){
        query = {"state_id":Number(req.query.stateId)} 
-    }else if(req.query.foodTypeId){
+    }
+    
+    
+    else if(req.query.foodTypeId){
         query = {"foodType.foodtype_id":Number(req.query.foodTypeId)}
-    }else if(req.query.mealId){
+    }
+    
+    
+    else if(req.query.mealId){
        query = {"mealTypes.mealtype_id":Number(req.query.mealId)} 
     }else if(req.query.ratingText){
        query = {"rating_text":Number(req.query.ratingText)} 
@@ -83,7 +89,7 @@ app.get('/restaurants', async(req,res) =>{
 });
 
 
-console.log("this is the end this is just a fantasy"+foodType.foodtype_id:1)
+
 
 // get all mealtypes
 app.get('/mealType', async(req,res) => {
