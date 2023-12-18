@@ -181,7 +181,7 @@ app.get('/filtery/:foodtypeId',async(req,res) => {
         }
     }
     else{
-        query = {}
+        query = {"foodType.foodtype_id":Number(foodtypeId)}
     }
 
     let collection = "restaurants";
