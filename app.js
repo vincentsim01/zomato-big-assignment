@@ -135,7 +135,7 @@ app.get('/filter/:mealId',async(req,res) => {
         }
     }
     else{
-        query = {}
+        query = {"mealTypes.mealtype_id":Number(mealId)}
     }
 
     let collection = "restaurants";
