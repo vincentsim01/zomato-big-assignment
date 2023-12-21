@@ -4,7 +4,7 @@ let port = 9120
 let Mongo = require('mongodb');
 let bodyParser = require('body-parser');
 let cors = require('cors');
-let {dbConnect,getData} = require('./Controller/dbController');
+let {dbConnect,getData,postData,updateData,deleteData} = require('./Controller/dbController');
 
 //middleware
 app.use(bodyParser.json());
@@ -128,7 +128,12 @@ app.get('/filter/:mealId',async(req,res) => {
             "mealTypes.mealtype_id":Number(mealId),
             "foodType.foodtype_id":Number(foodtypeId)
         }
-    }else if(lcost && hcost){
+    }
+    
+    
+    
+    
+    else if(lcost && hcost){
         query = {
             "mealTypes.mealtype_id":Number(mealId),
             $and:[{cost:{$gt:lcost,$lt:hcost}}]
@@ -218,10 +223,17 @@ app.get('/orders',async(req,res) => {
 //placeOrder
 app.post('/placeOrder',async(req,res) => {
     let body = req.body;
+
+    console.log(body);
     let collection = 'orders';
     let response = await postData(collection,body);
+
+    
     res.send(response)
+
+    
 })
+
 
 
 
