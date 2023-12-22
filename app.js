@@ -224,7 +224,7 @@ app.get('/orders',async(req,res) => {
 app.post('/placeOrder',async(req,res) => {
     let body = req.body;
 
-    console.log(body);
+
     let collection = 'orders';
     let response = await postData(collection,body);
 
