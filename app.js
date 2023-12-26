@@ -202,7 +202,7 @@ app.get('/filtery/:foodtypeId',async(req,res) => {
 
 //menu of restaurants
 app.get('/menu/:id',async(req,res) => {
-    let collection = "menu";
+    let collection = "restaurantmenu";
     let query = {restaurant_id:Number(req.params.id)}
     let output = await getData(collection,query);
     res.send(output)
