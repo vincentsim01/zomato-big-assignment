@@ -73,8 +73,8 @@ app.get('/restaurants', async(req,res) =>{
     }
     
     
-    else if(req.query.foodTypeId){
-        query = {"foodType.foodtype_id":Number(req.query.foodTypeId)}
+    else if(req.query.foodtypeId){
+        query = {"foodType.foodtype_id":Number(req.query.foodtypeId)}
     }
     
     
