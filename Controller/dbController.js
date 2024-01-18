@@ -24,6 +24,22 @@ async function getData(colName,query){
 }
 
 
+async function getDataSort(colName,query,costsort){
+    let output = [];
+    try{
+        const cursor = db.collection(colName).find(query).sort({cost:costsort});
+        for await(const data of cursor){
+            output.push(data)
+        }
+        cursor.closed
+    }catch(err){
+        output.push({"Error":"Error in getting data"})
+    }
+    return output
+}
+
+
+
 async function postData(colName,data){
     let output;
     try{
@@ -60,5 +76,6 @@ module.exports = {
     getData,
     postData,
     updateData,
-    deleteData
+    deleteData,
+    getDataSort
 }

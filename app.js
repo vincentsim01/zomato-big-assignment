@@ -4,7 +4,7 @@ let port = 9120
 let Mongo = require('mongodb');
 let bodyParser = require('body-parser');
 let cors = require('cors');
-let {dbConnect,getData,postData,updateData,deleteData} = require('./Controller/dbController');
+let {dbConnect,getData,postData,updateData,deleteData, getDataSort} = require('./Controller/dbController');
 
 //middleware
 app.use(bodyParser.json());
@@ -57,6 +57,20 @@ app.get('/menu', async(req,res) =>{
 
     }
     let output = await getData(collection,query);
+    res.send(output)
+});
+
+
+app.get('/cosort', async(req,res) =>{
+    let query = {};
+    let collection = "restaurants";
+    let costsort= 1;
+
+    if(req.query.costsorts){
+        costsort = req.query.costsorts;
+
+    }
+    let output = await getDataSort(collection,query,costsort);
     res.send(output)
 });
 
