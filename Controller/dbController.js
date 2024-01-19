@@ -104,5 +104,6 @@ module.exports = {
     postData,
     updateData,
     deleteData,
-    getDataSort
+    getDataSort,
+    getDataPagi
 }
