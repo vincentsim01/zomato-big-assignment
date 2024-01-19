@@ -4,7 +4,7 @@ let port = 9120
 let Mongo = require('mongodb');
 let bodyParser = require('body-parser');
 let cors = require('cors');
-let {dbConnect,getData,postData,updateData,deleteData, getDataSort} = require('./Controller/dbController');
+let {dbConnect,getData,postData,updateData,deleteData, getDataSort,getDataPagi} = require('./Controller/dbController');
 
 //middleware
 app.use(bodyParser.json());
@@ -71,6 +71,23 @@ app.get('/cosort', async(req,res) =>{
 
     }
     let output = await getDataSort(collection,query,costsort);
+    res.send(output)
+});
+
+
+
+app.get('/datapagi', async(req,res) =>{
+    let query = {};
+    let collection = "restaurants";
+    // let costsort= 1;
+    if(req.query.pages){
+        page = req.query.pages;
+
+    }
+
+
+    // let output = await getDataPagi(collection,query,costsort,page);
+    let output = await getDataPagi(collection,query,page);
     res.send(output)
 });
 
@@ -144,6 +161,8 @@ app.get('/filter/:mealId',async(req,res) => {
         }
     }
     
+
+
     
     
     

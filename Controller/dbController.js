@@ -39,6 +39,25 @@ async function getDataSort(colName,query,costsort){
 }
 
 
+async function getDataPagi(colName,query,costsort,page){
+    let output = [];
+    try{
+        const itemsperpage=3;
+        let startIndex=itemsperpage*page-itemsperpage;
+        let endIndex=itemsperpage*page;
+        const cursor = db.collection(colName).find(query).sort({cost:costsort});
+        for await(const data of cursor){
+            let thesliceddata=data.slice(startIndex,endIndex)
+            output.push(thesliceddata)
+        }
+        cursor.closed
+    }catch(err){
+        output.push({"Error":"Error in getting data"})
+    }
+    return output
+}
+
+
 
 async function postData(colName,data){
     let output;
@@ -70,6 +89,14 @@ async function deleteData(colName,condition,){
     return output
 }
 
+let page=1;
+
+
+const itemsperpage=2;
+let payload={};
+
+let startIndex=itemsperpage*page-itemsperpage;
+let endIndex=itemsperpage*page;
 
 module.exports = {
     dbConnect,
