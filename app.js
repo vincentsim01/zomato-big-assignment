@@ -4,7 +4,7 @@ let port = 9120
 let Mongo = require('mongodb');
 let bodyParser = require('body-parser');
 let cors = require('cors');
-let {dbConnect,getData,postData,updateData,deleteData, getDataSort,getDataPagi} = require('./Controller/dbController');
+let {dbConnect,getData,postData,updateData,deleteData, getDataSort, getDataPagi} = require('./Controller/dbController');
 
 //middleware
 app.use(bodyParser.json());
@@ -83,6 +83,8 @@ app.get('/datapagi', async(req,res) =>{
     if(req.query.pages){
         page = req.query.pages;
 
+    }else{
+        page=1;
     }
 
 

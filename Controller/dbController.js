@@ -39,22 +39,62 @@ async function getDataSort(colName,query,costsort){
 }
 
 
-async function getDataPagi(colName,query,costsort,page){
+async function getDataPagi(colName,query,page){
     let output = [];
+    const itemsperpage=2;
+    // let page=1;
+    let startIndex=itemsperpage*page-itemsperpage;
+    let endIndex=itemsperpage*page;
+
+
+    // console.log(endIndex);
+
+    
     try{
-        const itemsperpage=3;
-        let startIndex=itemsperpage*page-itemsperpage;
-        let endIndex=itemsperpage*page;
-        const cursor = db.collection(colName).find(query).sort({cost:costsort});
+
+        const cursor = db.collection(colName).find(query)
+        // .then(res=>{
+        //     const filteredResponse=res.slice(startIndex,endIndex);
+            
+        //     console.log("this is filtered response "+filteredResponse);
+        //     return res.status(200).json({
+        //         message:"Restaurants fetched successfully",
+        //         restaurants:filteredResponse
+        
+        //     }).catch(err=>{
+        //         return res.status(400).json({error:err});
+        //     })
+        // });
+        ;
+
+        // const filteredResponse=cursor
+
+        // const sliced = Object.fromEntries(
+        //     Object.entries(cursor).slice(startIndex,endIndex)
+        // )
+        // console.log(filteredResponse);
+
+        // console.log(sliced);
+
+        // output.push(sliced);
+
+        // console.log(cursor);
         for await(const data of cursor){
-            let thesliceddata=data.slice(startIndex,endIndex)
-            output.push(thesliceddata)
+
+            output.push(data)
+            // const filteredResponse=cursor.slice(startIndex,endIndex);
+            // console.log(filteredResponse);
+            // console.log(data);
         }
         cursor.closed
     }catch(err){
         output.push({"Error":"Error in getting data"})
     }
-    return output
+
+    // console.log(output);
+
+    return output.slice(startIndex,endIndex)
+
 }
 
 
